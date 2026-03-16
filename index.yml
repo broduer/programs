@@ -2,6 +2,15 @@
 # - [Event] not implemented yet
 #   Will be used by Bottles to trigger an installer when the pattern matches
 
+
+aragonrsps:
+  Arch: win64
+  Name: Aragon Launcher
+  Description: The official AragonRSPS launcher.
+  Grade: Gold
+  Category: Games
+  Event: AragonLauncherLatestx64-setup.exe
+
 epicgamestore:
   Arch: win64
   Name: Epic Games Store
