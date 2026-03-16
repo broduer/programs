@@ -8,6 +8,8 @@ Dependencies:
   - vcredist2022
   - times32
   - openjdk11
+  - vcredist2019
+  - webview2
 
 Parameters:
   dxvk: true
