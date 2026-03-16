@@ -1,0 +1,27 @@
+Name: aragonrsps
+Description: The official AragonRSPS launcher.
+Grade: Gold
+Arch: win64
+
+Dependencies:
+  - dotnet48
+  - vcredist2022
+  - times32
+  - openjdk11
+
+Parameters:
+  dxvk: true
+  sync: fsync
+  discrete_gpu: true
+  
+Executable:
+  name: Aragon Launcher
+  icon: aragon.png
+  file: AragonLauncherLatestx64-setup.exe
+  path: userdir/AppData/Local/aragonrsps/AragonLauncherLatestx64-setup.exe
+
+Steps:
+- action: install_exe
+  file_name: AragonLauncherLatestx64-setup.exe
+  url: https://launcher.avernic.com/aragonrsps/release/AragonLauncherLatestx64-setup.exe
+  
