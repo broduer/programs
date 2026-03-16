@@ -9,6 +9,7 @@ aragonrsps:
   Description: The official AragonRSPS launcher.
   Grade: Gold
   Category: Games
+  Icon: epicgamestore.svg
   Event: AragonLauncherLatestx64-setup.exe
 
 epicgamestore:
