@@ -18,7 +18,6 @@ Parameters:
   
 Executable:
   name: Aragon Launcher
-  icon: aragon.png
   file: AragonLauncherLatestx64-setup.exe
   path: userdir/AppData/Local/aragonrsps/AragonLauncherLatestx64-setup.exe
 
